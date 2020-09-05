@@ -1,0 +1,23 @@
+{
+  "name": "ardoq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aannarino/Ardoq_task1.git"
+  },
+  "author": "Anthony Annarino Jr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aannarino/Ardoq_task1/issues"
+  },
+  "homepage": "https://github.com/aannarino/Ardoq_task1#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
