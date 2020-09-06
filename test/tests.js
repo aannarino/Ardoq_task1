@@ -17,6 +17,11 @@ describe('Testing when the list contains only integers less than or equal to 0',
         let list = [-1, -2, -3];
         expect(greatestProductOfNumbers(list)).to.equal(-6);
     })
+
+    it('Should return 0', function(){
+        let list = [0,0,0];
+        expect(greatestProductOfNumbers(list)).to.equal(0);
+    })
 })
 
 describe('Testing when the list contains non-zero integers and only one positive integer', function(){
@@ -46,4 +51,5 @@ describe('Testing when the list contains postive integers, negative integers, an
         let list = [-1,0,1];
         expect(greatestProductOfNumbers(list)).to.equal(0);
     })
+
 })
