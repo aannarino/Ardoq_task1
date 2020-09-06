@@ -10,12 +10,12 @@ describe('Testing when the list contains only integers less than or equal to 0',
 
     it('Should return 0', function(){
         let list = [0,-1,-2,-3,-4,-5];
-        expect(greatestProductOfNumbers(list).to.equal(0));
+        expect(greatestProductOfNumbers(list)).to.equal(0);
     })
 
     it('Should return -6', function(){
         let list = [-1, -2, -3];
-        expect(greatestProductOfNumbers(list).to.equal(-6));
+        expect(greatestProductOfNumbers(list)).to.equal(-6);
     })
 })
 
@@ -27,7 +27,7 @@ describe('Testing when the list contains non-zero integers and only one positive
 
     it('Should equal 4', function(){
         let list = [-1,-2,2];
-        expect(greatestProductOfNumbers(list)).to.equal(4)
+        expect(greatestProductOfNumbers(list)).to.equal(4);
     })
 })
 
@@ -39,11 +39,11 @@ describe('Testing when the list contains postive integers, negative integers, an
 
     it('Should return 48', function(){
         let list = [-1,-2,1,2,3,8,0]
-        expect(greatestProductOfNumbers(list)).to.equal(60);
+        expect(greatestProductOfNumbers(list)).to.equal(48);
     })
 
     it('Should return 0', function(){
         let list = [-1,0,1];
-        expect(greatestProductOfNumbers(list).to.equal(0));
+        expect(greatestProductOfNumbers(list)).to.equal(0);
     })
 })
