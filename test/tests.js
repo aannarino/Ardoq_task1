@@ -52,4 +52,9 @@ describe('Testing when the list contains postive integers, negative integers, an
         expect(greatestProductOfNumbers(list)).to.equal(0);
     })
 
+    it('Should return 300', function(){
+        let list = [1, 10, 2, 6, 5, 3];
+        expect(greatestProductOfNumbers(list)).to.equal(300);
+    })
+
 })
